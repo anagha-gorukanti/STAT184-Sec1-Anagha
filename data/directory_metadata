@@ -1,0 +1,4 @@
+The `data` folder contains a single file named `data_file.txt`, which holds temperature and CO2 concentration data across various countries and years. This dataset includes attributes such as country, year, temperature (in Fahrenheit or degrees), and CO2 levels (in ppm). The data has some formatting inconsistencies, such as mixed delimiters and variable spacing, which may require preprocessing for analysis. The folder's purpose is to store datasets essential for the project's analysis, computations, and visualizations. Currently, this is the only file in the folder, but additional data or metadata files may be added as the project evolves. The `.gitkeep` file ensures the folder is tracked in the repository even if empty.
+
+
+
