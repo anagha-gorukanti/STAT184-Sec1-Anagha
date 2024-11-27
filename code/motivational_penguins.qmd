@@ -1,0 +1,140 @@
+---
+title: "Waddle to Wealth"
+format: 
+  html:
+    include-in-header:
+      text: |
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+        <style>
+          h1.title {
+            font-family: 'Cinzel', serif;
+            font-weight: 700;
+            font-size: 2.5em;
+          }
+        </style>
+editor: visual
+---
+
+```{r}
+#| label: load-packages
+#| include: false
+
+library(tidyverse)
+library(palmerpenguins)
+```
+
+# Penguin ranching
+
+![](https://mgcallahan15.github.io/Penguin_ranch/penguin_ranch.webp){fig-alt="Fictional Penguin ranch of WaddleWorks, Ltd. Artwork by @DALL-E 2024" width="1000"}
+
+We’ve been hired by the start-up company, WaddleWorks Ltd., determined to stake its claim in the cut-throat world of penguin ranching. The first order of busienss: we need to figure out which island to base our operations out of. Given that the company has engineered an entirely new, unique non-native penguin species, which island should provide the best environment for raising company penguins? Or does the choise of island not particularly matter?
+
+To provide a transparent analysis that my colleagues can later tweak and change at will, I will be using a quarto notebook to document my code.
+
+## Data inventory
+
+First, we can take a peak at the dataset we're going to analyze with the head() function. Here, we can see that we have a set of observations per individual penguin. The penguins varied by island, species, sex and year recorded, as well as by physical characteristics measured, such as bill length (in millimeters), bill depth (in millimeters), flipper length (in millimeters), and body mass (in grams).
+
+Notably, we can see that the data quality isn't perfect, with some NA values for certain fields.
+
+```{r}
+#| label: data-inventory
+#| warning: false
+#| echo: false
+head(penguins)
+```
+
+## Does the island where a penguin lives affect how large it grows?
+
+To answer this question, we should first filter the data to remove observations where body mass, species, or island was not recorded. We can see that this decreases the data from 344 rows to 342 rows.
+
+```{r}
+#| label: filter-data
+#| warning: false
+#| echo: true
+
+nrow(penguins)
+penguins_filtered <- penguins %>% 
+  filter(!is.na(body_mass_g) & !is.na(island) & !is.na(species))
+nrow(penguins_filtered)
+
+```
+
+Next, we can look at how the distribution of weight differs across different islands.
+
+```{r}
+#| label: plot-island-weights
+#| warning: false
+#| echo: false
+
+ggplot(penguins_filtered, aes(x = island, y = body_mass_g)) + 
+  geom_boxplot() + 
+  labs(
+    title = "Penguin Body Mass Across Different Islands",
+    x = "Island",
+    y = "Body Mass (g)"
+  )
+```
+
+We can clearly see that Biscoe island is home to the largest penguins. But does that imply that Biscoe island *causes* a penguin to grow larger, *compared to the same penguin growing on a different island?*
+
+To answer this, we might want to consider other confounding variables. We saw earlier that the dataset includes penguin species. It would make sense that the weight distribution of penguins varies between species. If the species population also varies between islands, that could cause the pattern we observed above, even if the island itself doesn't cause penguins to grow larger.
+
+To test this theory, we can see if the weight actually varies by penguin species.
+
+```{r}
+#| label: plot-weight-species
+#| warning: false
+#| echo: false
+
+ggplot(penguins_filtered, aes(x = species, y = body_mass_g)) + 
+  geom_boxplot() + 
+  labs(
+    title = "Penguin Body Mass Across Different Species",
+    x = "Species",
+    y = "Body Mass (g)"
+  )
+```
+
+It looks like this is the case. Now, we can see if different islands have different proportions of penguin species.
+
+```{r}
+#| label: plot-island-species
+#| warning: false
+#| echo: false
+
+ggplot(penguins_filtered, aes(x = island, fill = species)) +
+  geom_bar(position = "dodge") +
+  labs(
+    title = "Distribution of Penguin Species Across Islands",
+    x = "Island",
+    y = "Count",
+    fill = "Species"
+  )
+
+```
+
+Again, we see empirical support for the earlier hypothesis that species could be a confounder. Importantly, we can see that only one species inhabits multiple islands, which means that only that species should be considered in our analysis.
+
+Finally, we will plot the interaction of island and species on body mass to see which variable matters more.
+
+```{r}
+#| label: plot-island-species-weight
+#| warning: false
+#| echo: false
+
+ggplot(penguins_filtered, aes(x = island, y = body_mass_g, fill = species)) +
+  geom_boxplot() +
+  labs(
+    title = "Body Mass of Penguin Species Across Islands",
+    x = "Island",
+    y = "Body Mass (g)",
+    fill = "Species"
+  )
+
+```
+
+Here, we can clearly see that once we account for different species and only track the Adelie species, which inhabits multiple islands, we see only very small differences in the distribution of body mass.
+
+So taking in all the plots as a whole, we can say that the island a penguin grows on probably only plays a small part in determining it's body mass. The species that the penguin belongs to, however, plays a very significant role.
