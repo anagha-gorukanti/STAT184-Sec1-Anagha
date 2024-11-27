@@ -1,0 +1,100 @@
+Germany  Y: 2006     Temp79.65   F    CO2= 376.33ppm
+Country:France   Year   2008     Temp.40.6    degrees    CO2level  409.9ppm
+UK     Y:    2007Temp 52.37F      CO2=396.69ppm
+France  Y: 2011     Temp61.69   F    CO2= 386.26ppm
+Country:France   Year   2001     Temp.46.78    degrees    CO2level  401.37ppm
+Canada     Y:    2000Temp 53.32F      CO2=391.81ppm
+UK  Y: 2015     Temp58.63   F    CO2= 437.79ppm
+Country:UK   Year   2022     Temp.74.01    degrees    CO2level  386.48ppm
+UK     Y:    2022Temp 59.55F      CO2=381.73ppm
+France  Y: 2004     Temp62.17   F    CO2= 390.9ppm
+Country:Germany   Year   2002     Temp.65.12    degrees    CO2level  391.74ppm
+UK     Y:    2011Temp 65.43F      CO2=411.91ppm
+France  Y: 2007     Temp60.28   F    CO2= 360.17ppm
+Country:Canada   Year   2021     Temp.48.03    degrees    CO2level  408.52ppm
+Germany     Y:    2002Temp 67.9F      CO2=389.17ppm
+Canada  Y: 2000     Temp64.31   F    CO2= 415.54ppm
+Country:Germany   Year   2002     Temp.49.03    degrees    CO2level  399.05ppm
+France     Y:    2004Temp 53.18F      CO2=410.37ppm
+USA  Y: 2014     Temp68.88   F    CO2= 392.17ppm
+Country:Germany   Year   2013     Temp.66.05    degrees    CO2level  408.76ppm
+Canada     Y:    2002Temp 52.8F      CO2=433.28ppm
+France  Y: 2000     Temp57.3   F    CO2= 385.22ppm
+Country:Germany   Year   2004     Temp.58.57    degrees    CO2level  397.86ppm
+USA     Y:    2022Temp 66.17F      CO2=390.28ppm
+USA  Y: 2013     Temp72.49   F    CO2= 431.86ppm
+Country:UK   Year   2006     Temp.60.66    degrees    CO2level  391.32ppm
+UK     Y:    2008Temp 71.69F      CO2=385.35ppm
+Canada  Y: 2014     Temp68.73   F    CO2= 388.43ppm
+Country:Germany   Year   2014     Temp.62.06    degrees    CO2level  397.29ppm
+Germany     Y:    2009Temp 45.57F      CO2=384.13ppm
+UK  Y: 2012     Temp49.72   F    CO2= 392.63ppm
+Country:Germany   Year   2018     Temp.67.41    degrees    CO2level  403.14ppm
+Germany     Y:    2006Temp 42.89F      CO2=397.69ppm
+USA  Y: 2016     Temp61.19   F    CO2= 416.63ppm
+Country:UK   Year   2019     Temp.70.0    degrees    CO2level  393.61ppm
+France     Y:    2003Temp 61.52F      CO2=395.91ppm
+UK  Y: 2004     Temp53.99   F    CO2= 405.42ppm
+Country:France   Year   2022     Temp.51.53    degrees    CO2level  444.9ppm
+USA     Y:    2006Temp 68.16F      CO2=384.25ppm
+Canada  Y: 2012     Temp64.72   F    CO2= 438.47ppm
+Country:Germany   Year   2014     Temp.57.15    degrees    CO2level  376.33ppm
+USA     Y:    2010Temp 70.65F      CO2=404.58ppm
+Germany  Y: 2003     Temp68.54   F    CO2= 393.21ppm
+Country:Canada   Year   2012     Temp.77.89    degrees    CO2level  383.69ppm
+Canada     Y:    2006Temp 65.67F      CO2=413.98ppm
+USA  Y: 2018     Temp58.35   F    CO2= 412.0ppm
+Country:Canada   Year   2021     Temp.58.57    degrees    CO2level  390.38ppm
+France     Y:    2001Temp 40.65F      CO2=358.12ppm
+Canada  Y: 2009     Temp61.51   F    CO2= 391.6ppm
+Country:Germany   Year   2012     Temp.59.84    degrees    CO2level  402.78ppm
+Germany     Y:    2020Temp 46.7F      CO2=400.04ppm
+Germany  Y: 2005     Temp59.75   F    CO2= 415.12ppm
+Country:Germany   Year   2011     Temp.73.43    degrees    CO2level  438.67ppm
+France     Y:    2011Temp 52.65F      CO2=408.28ppm
+UK  Y: 2019     Temp50.4   F    CO2= 411.36ppm
+Country:USA   Year   2010     Temp.71.05    degrees    CO2level  402.96ppm
+Germany     Y:    2022Temp 66.34F      CO2=423.45ppm
+Canada  Y: 2006     Temp90.61   F    CO2= 410.63ppm
+Country:Germany   Year   2000     Temp.46.81    degrees    CO2level  414.98ppm
+Canada     Y:    2000Temp 67.2F      CO2=436.18ppm
+Canada  Y: 2019     Temp63.16   F    CO2= 404.54ppm
+Country:Germany   Year   2012     Temp.60.59    degrees    CO2level  394.58ppm
+France     Y:    2008Temp 69.11F      CO2=408.93ppm
+Canada  Y: 2002     Temp59.7   F    CO2= 422.72ppm
+Country:Canada   Year   2006     Temp.40.64    degrees    CO2level  410.03ppm
+Germany     Y:    2005Temp 51.53F      CO2=421.21ppm
+Canada  Y: 2007     Temp73.64   F    CO2= 386.62ppm
+Country:Canada   Year   2008     Temp.71.72    degrees    CO2level  382.64ppm
+Germany     Y:    2004Temp 56.27F      CO2=389.1ppm
+Germany  Y: 2000     Temp65.04   F    CO2= 374.65ppm
+Country:USA   Year   2018     Temp.87.84    degrees    CO2level  402.21ppm
+France     Y:    2009Temp 59.69F      CO2=391.4ppm
+France  Y: 2011     Temp59.88   F    CO2= 424.6ppm
+Country:Canada   Year   2014     Temp.61.91    degrees    CO2level  374.18ppm
+France     Y:    2021Temp 66.07F      CO2=431.1ppm
+Canada  Y: 2008     Temp56.51   F    CO2= 380.38ppm
+Country:USA   Year   2019     Temp.66.06    degrees    CO2level  375.24ppm
+Germany     Y:    2016Temp 40.56F      CO2=383.51ppm
+Germany  Y: 2016     Temp63.36   F    CO2= 439.03ppm
+Country:Germany   Year   2019     Temp.60.51    degrees    CO2level  399.2ppm
+France     Y:    2011Temp 57.83F      CO2=410.59ppm
+USA  Y: 2006     Temp55.25   F    CO2= 396.32ppm
+Country:France   Year   2001     Temp.53.91    degrees    CO2level  398.2ppm
+France     Y:    2002Temp 51.86F      CO2=389.88ppm
+USA  Y: 2016     Temp36.82   F    CO2= 401.01ppm
+Country:USA   Year   2004     Temp.57.32    degrees    CO2level  409.89ppm
+USA     Y:    2016Temp 70.96F      CO2=433.57ppm
+USA  Y: 2016     Temp56.65   F    CO2= 362.51ppm
+Country:Germany   Year   2016     Temp.66.35    degrees    CO2level  432.22ppm
+UK     Y:    2001Temp 49.2F      CO2=410.56ppm
+UK  Y: 2001     Temp46.94   F    CO2= 392.64ppm
+Country:USA   Year   2021     Temp.52.49    degrees    CO2level  389.05ppm
+UK     Y:    2022Temp 49.75F      CO2=420.87ppm
+UK  Y: 2004     Temp48.17   F    CO2= 404.58ppm
+Country:USA   Year   2000     Temp.64.5    degrees    CO2level  369.32ppm
+UK     Y:    2000Temp 77.79F      CO2=407.26ppm
+France  Y: 2018     Temp53.33   F    CO2= 422.89ppm
+Country:Canada   Year   2001     Temp.43.08    degrees    CO2level  417.16ppm
+Canada     Y:    2020Temp 66.57F      CO2=387.46ppm
+USA  Y: 2011     Temp45.64   F    CO2= 373.16ppm
